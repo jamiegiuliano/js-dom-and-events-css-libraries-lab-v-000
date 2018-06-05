@@ -4,10 +4,56 @@
     <title>HTML/CSS Lab</title>
     <link rel="stylesheet" href="https://unpkg.com/basscss@8.0.1/css/basscss.min.css">
     <style>
+.feed {
+  max-width: 600px;
+}
+.profile-pic {
+  width: 48px;
 
+}
+.muted {
+  font-size: 13px;
+  color: #999;
+}
+h4 {
+  font-size: 14px;
+}
     </style>
   </head>
   <body>
+    <main class="flex flex-column items-center mt3">
+      <ul class="list-reset feed">
+        <li>
+          <div class='flex items-start m2 border-bottom bg-blue'>
+            <img class="mr2 fit profile-pic rounded" src="https://www.nyfa.edu/film-school-blog/wp-content/uploads/2015/01/TP-Sheriff-Dept-mug-in-scene1.jpg">
+            <div class="flex flex-column">
 
+              <h4 class="mb1 mt0">Agent Dale Cooper <span class="muted">@agentdalecooper - Aug 10</span></h2>
+              <p class="m0 mb2">You know, this is – excuse me – a damn fine cup of coffee.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class='flex items-start m2 border-bottom bg-blue'>
+            <img class="mr2 fit profile-pic rounded" src="https://vignette.wikia.nocookie.net/twinpeaks/images/e/ef/Laura_Palmer%2C_the_Queen_Of_Hearts.jpg/revision/latest?cb=20170615044123">
+            <div class="flex flex-column">
+
+              <h4 class="mb1 mt0">Laura Palmer <span class="muted">@laura_palmer - Aug 10</span></h2>
+              <p class="m0 mb2">The happier ending is Twin Peaks is still out there. Waiting, watchful, alive.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class='flex items-start m2 border-bottom bg-blue'>
+            <img class="mr2 fit profile-pic rounded" src="https://i.ytimg.com/vi/t5QqNMXosxs/hqdefault.jpg">
+            <div class="flex flex-column">
+
+              <h4 class="mb1 mt0">Laura Palmer <span class="muted">@laura_palmer - Aug 10</span></h2>
+              <p class="m0 mb2">I’m Audrey Horne and I get what I want.</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+  </main>
   </body>
 </html>
